@@ -78,7 +78,7 @@ public class ScoreServiceV1 {
 			engSum += (int)scores[i].getIntEng();
 			mathSum += (int)scores[i].getIntMath();
 			scoreSum += (int)scores[i].getIntSum();
-			fSum += (float)scores[i].getfAvg() / 5.0f;
+			fSum += (float)scores[i].getfAvg() /;
 		}
 			System.out.printf("총점\t%d\t%d\t%d\t%d\t%3.2f", korSum, engSum, mathSum, scoreSum,fSum);
 	}
