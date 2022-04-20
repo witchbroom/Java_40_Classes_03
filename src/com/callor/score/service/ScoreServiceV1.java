@@ -65,6 +65,7 @@ public class ScoreServiceV1 {
 		
 	}
 	
+	// 결과에 각 과목의 총점, 총점의 총점, 평균의 평균 표시하는 코드 추가
 	public void scoreSum() {
 		int korSum = 0;
 		int engSum = 0;
@@ -82,6 +83,6 @@ public class ScoreServiceV1 {
 			System.out.printf("총점\t%d\t%d\t%d\t%d\t%3.2f", korSum, engSum, mathSum, scoreSum,fSum);
 	}
 	
-	// 결과에 각 과목의 총점, 총점의 총점, 평균의 평균 표시;하는 코드 추가하기
+	
 
 }
